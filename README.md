@@ -1,6 +1,4 @@
-<img align="right" src="https://eclectic-thoughts.com/wp-content/uploads/2018/04/Udacity_logo-421x500.png" width=108>
 
-## Data Engineering Capstone Project for Udacity
 
 ### Objective  
 
@@ -360,32 +358,5 @@ create user webappdevuser1 password 'webAppdev1pass' in group webdevusers;
 grant all on schema webapp to group webdevusers;
 ```
 
-Defending Decisions
----
 
-### The choice of tools, technologies:
-- Airflow to view, monitor and log flow of information: Extremely useful tool to control end to end ETL processing
-- S3 Storage to store data on a large scale: Never complain about storage and most importantly when it stores big data
-- Redshift to make advantage of columnar format and faster querying strategies: Query from anywhere and anytime
-- Spark for distributed processing of heavy data: Best in-memory faster processing
-- Pandas for cleaning data frames: absolutely neccessary
-
-### Links for Airflow
-
----
-**Context Variables**  
-https://airflow.apache.org/macros.html
-
-**Hacks for airflow**  
-https://medium.com/datareply/airflow-lesser-known-tips-tricks-and-best-practises-cf4d4a90f8f  
-https://medium.com/handy-tech/airflow-tips-tricks-and-pitfalls-9ba53fba14eb  
-https://www.astronomer.io/guides/dag-best-practices/
-
-### Technologies Used
-<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/512px-Amazon_Web_Services_Logo.svg.png" width=108>
-<img align="left" src="https://upload.wikimedia.org/wikipedia/en/2/29/Apache_Spark_Logo.svg" width=108>
-<img align="left" src="https://ncrocfer.github.io/images/airflow-logo.png" width=108>
-<img align="left" src="https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png" width=108>
-<img align="left" src="https://cdn.sisense.com/wp-content/uploads/aws-redshift-connector.png" width=108>
-<img align="left" src="https://braze-marketing-assets.s3.amazonaws.com/images/partner_logos/amazon-s3.png" width=140, height=45>
 
