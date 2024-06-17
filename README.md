@@ -18,17 +18,7 @@ will be orchestrating the flow of data through Apache Airflow DAGs.
 Finally we will be using some SQL queries to extract some valuable stats
 and graphs from the data itself. 
 
-### Data Model
 
----
-![alt text](img/schema.PNG)
-
-### Data Pipeline
-
-___
-![alt text](img/marker.png)
-![alt text](img/pipeline.png)
-![alt_text](img/pipeline-tree.png)
 
 ### Installing and starting
 
