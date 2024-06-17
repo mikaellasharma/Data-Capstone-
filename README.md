@@ -240,23 +240,6 @@ SELECT a.longitude_deg, a.latitude_deg
 FROM project.airport_codes a 
 WHERE a.iso_country = 'US' AND a.type = 'small_airport'
 ```
-### Stats and Graphs
-
----
-#### City from where immigrants arrived
-![alt text](img/city_intake.png)
-
-#### Different kinds of airports
-![alt_text](img/diff_airports.png)
-
-#### Immigrants from different countries
-![alt text](img/no_of_immigrants.png)
-
-#### Small airports from different states
-![alt_text](img/state_airports.png)
-
-#### Small airports locations in different states
-![alt_text](img/graph.png)
 
 Scoping the Project
 ---
