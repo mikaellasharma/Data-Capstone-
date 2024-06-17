@@ -6,7 +6,6 @@ import sys
 import time
 import logging
 
-
 class AWSUtils:
 
     def __init__(self, access_key, secret_key):
